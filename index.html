@@ -84,114 +84,6 @@ background:#eceff1;
 display:none;
 }
 
-.result-wrapper{
-margin-top:20px;
-padding:20px;
-background:white;
-border-radius:12px;
-}
-
-.compass{
-position:relative;
-width:500px;
-height:500px;
-margin:30px auto;
-background:#f3f3f3;
-border:1px solid #ccc;
-}
-
-.axis-x{
-position:absolute;
-left:0;
-top:50%;
-width:100%;
-height:2px;
-background:black;
-}
-
-.axis-y{
-position:absolute;
-top:0;
-left:50%;
-width:2px;
-height:100%;
-background:black;
-}
-
-.axis-label{
-position:absolute;
-font-weight:bold;
-font-size:20px;
-}
-
-.top-label{
-top:10px;
-left:50%;
-transform:translateX(-50%);
-}
-
-.bottom-label{
-bottom:10px;
-left:50%;
-transform:translateX(-50%);
-}
-
-.left-label{
-left:10px;
-top:50%;
-transform:translateY(-50%);
-}
-
-.right-label{
-right:10px;
-top:50%;
-transform:translateY(-50%);
-}
-
-.user-point{
-position:absolute;
-width:18px;
-height:18px;
-border-radius:50%;
-background:red;
-border:3px solid white;
-box-shadow:0 0 10px rgba(0,0,0,.4);
-}
-
-.populism{
-margin-top:40px;
-}
-
-.popbar{
-position:relative;
-height:30px;
-border-radius:30px;
-overflow:hidden;
-background:
-linear-gradient(
-90deg,
-#2ecc71 0%,
-#8bc34a 25%,
-#f1c40f 50%,
-#f39c12 75%,
-#e74c3c 100%
-);
-}
-
-.popmarker{
-position:absolute;
-top:-5px;
-width:5px;
-height:40px;
-background:black;
-}
-
-.profileText{
-line-height:1.8;
-font-size:17px;
-margin-bottom:20px;
-}
-
 </style>
 
 </head>
@@ -230,10 +122,10 @@ b:"Každý by měl platit podle toho, jak dopravu využívá.",
 x:-2,
 reactions:{
 aStrong:"Některá města využívají levnější dopravu jako podporu mladých lidí.",
-aSoft:"Cena dopravy může ovlivnit, jak často ji lidé využívají.",
-neutral:"Financování veřejné dopravy není jednoduché téma.",
-bSoft:"Platba podle využití je běžným principem u mnoha služeb.",
-bStrong:"Názory na to, kdo má dopravu financovat, se často liší."
+aSoft:"Cena dopravy může ovlivnit způsob cestování lidí.",
+neutral:"Existují různé názory na financování dopravy.",
+bSoft:"Platba podle využití je běžným principem mnoha služeb.",
+bStrong:"Financování dopravy bývá častým tématem veřejných debat."
 }
 },
 
@@ -243,11 +135,11 @@ a:"Podnikatelé by měli mít co nejméně překážek.",
 b:"Stát by měl podnikání více regulovat.",
 x:2,
 reactions:{
-aStrong:"Pravidla a regulace mohou ovlivňovat rychlost rozvoje podnikání.",
-aSoft:"Mnoho ekonomických debat se týká hledání rovnováhy mezi svobodou a pravidly.",
+aStrong:"Pravidla mohou ovlivňovat rychlost rozvoje podnikání.",
+aSoft:"Mnoho debat hledá rovnováhu mezi svobodou a kontrolou.",
 neutral:"Oba přístupy mají své výhody i nevýhody.",
-bSoft:"Někteří lidé považují dohled za důležitou ochranu zákazníků.",
-bStrong:"Otázka regulace podnikání je součástí debat ve většině zemí."
+bSoft:"Regulace mohou chránit zákazníky a zaměstnance.",
+bStrong:"Míra regulace podnikání se mezi zeměmi výrazně liší."
 }
 },
 
@@ -257,11 +149,11 @@ a:"Je lepší hospodařit opatrně.",
 b:"Je lepší více investovat do rozvoje.",
 x:2,
 reactions:{
-aStrong:"Některá města dávají přednost finanční rezervě před většími investicemi.",
+aStrong:"Některá města dávají přednost finanční stabilitě.",
 aSoft:"Rozhodování o veřejných penězích bývá složité.",
-neutral:"Obě možnosti mohou být v různých situacích výhodné.",
-bSoft:"Investice mohou přinést dlouhodobé zlepšení života obyvatel.",
-bStrong:"Rozvoj měst bývá často spojen s vyššími výdaji."
+neutral:"V různých obdobích mohou být vhodné různé přístupy.",
+bSoft:"Investice mohou měnit podobu měst na mnoho let dopředu.",
+bStrong:"Rozvoj bývá často spojen s vyššími výdaji."
 }
 },
 
@@ -271,11 +163,11 @@ a:"Každý by měl mít podobně dostupnou péči.",
 b:"Lidé by si měli více rozhodovat o péči sami.",
 x:-2,
 reactions:{
-aStrong:"Dostupnost zdravotní péče je častým tématem veřejných debat.",
-aSoft:"Otázka dostupnosti zdravotnictví se týká většiny lidí.",
+aStrong:"Dostupnost zdravotní péče řeší většina států.",
+aSoft:"Různé systémy zdravotnictví fungují různými způsoby.",
 neutral:"Mnoho zemí kombinuje oba přístupy.",
-bSoft:"Někteří lidé dávají přednost větší možnosti vlastní volby.",
-bStrong:"Různé státy řeší zdravotnictví různými způsoby."
+bSoft:"Volba a osobní rozhodování bývají pro některé lidi důležité.",
+bStrong:"Zdravotnictví patří mezi často diskutovaná témata."
 }
 },
 
@@ -285,7 +177,287 @@ a:"Peníze mají jít hlavně na služby.",
 b:"Přednost má snižování dluhu.",
 x:-2,
 reactions:{
-aStrong:"Rozdělování veřejných peněz patří k nejdůležitějš;
+aStrong:"Rozdělování veřejných peněz patří k nejdůležitějším rozhodnutím obcí.",
+aSoft:"Každá obec hledá vlastní rovnováhu mezi výdaji a úsporami.",
+neutral:"Oba přístupy mají své zastánce.",
+bSoft:"Někteří lidé považují finanční stabilitu za prioritu.",
+bStrong:"Veřejné zadlužení bývá důležitým tématem ekonomických debat."
+}
+},
+
+{
+intro:"Společnost se neustále mění.",
+a:"Měla by být otevřená novým způsobům života.",
+b:"Měla by chránit hlavně tradice.",
+y:2,
+reactions:{
+aStrong:"Společnosti se během historie neustále vyvíjely.",
+aSoft:"Nové myšlenky mohou přinášet nové možnosti.",
+neutral:"Mnoho lidí oceňuje jak změny, tak tradice.",
+bSoft:"Tradice bývají pro lidi zdrojem stability.",
+bStrong:"Otázka tradic se objevuje v mnoha společnostech."
+}
+},
+
+{
+intro:"Tradice a změny bývají někdy v napětí.",
+a:"Tradice mají hrát významnou roli.",
+b:"Důležitější je přizpůsobovat se nové době.",
+y:-2,
+reactions:{
+aStrong:"Tradice často odrážejí zkušenosti minulých generací.",
+aSoft:"Historické zkušenosti mohou ovlivňovat dnešní rozhodování.",
+neutral:"Oba pohledy mají své zastánce.",
+bSoft:"Vývoj společnosti často přináší nové potřeby.",
+bStrong:"Změny mohou probíhat různým tempem."
+}
+},
+
+{
+intro:"Mladí lidé mohou mít zajímavé nápady.",
+a:"Měli by se více podílet na rozhodování.",
+b:"Rozhodovat by měli hlavně zkušení lidé.",
+y:2,
+reactions:{
+aStrong:"Zapojení mladých řeší mnoho zemí.",
+aSoft:"Každá generace přináší nové pohledy.",
+neutral:"Zkušenosti i nové pohledy mohou být užitečné.",
+bSoft:"Zkušenosti bývají při rozhodování důležitým faktorem.",
+bStrong:"Otázka vlivu generací bývá často diskutována."
+}
+},
+
+{
+intro:"Do škol přicházejí nové technologie.",
+a:"Školy by měly více využívat umělou inteligenci.",
+b:"Hlavní je práce učitelů.",
+y:2,
+reactions:{
+aStrong:"Technologie rychle mění vzdělávání.",
+aSoft:"Školy hledají různé způsoby využití technologií.",
+neutral:"Mnoho škol propojuje oba přístupy.",
+bSoft:"Role učitele zůstává důležitá.",
+bStrong:"Diskuse o AI ve školách je velmi aktuální."
+}
+},
+
+{
+intro:"Je důležité poznávat jiné kultury?",
+a:"Ano, je důležité poznávat odlišné kultury.",
+b:"Důležitější je chránit vlastní tradice.",
+y:2,
+reactions:{
+aStrong:"Lidé dnes cestují a potkávají se více než dříve.",
+aSoft:"Poznávání jiných kultur může rozšiřovat obzory.",
+neutral:"Mnoho lidí považuje za důležité obojí.",
+bSoft:"Místní tradice mohou být významnou součástí identity.",
+bStrong:"Kulturní identita bývá častým tématem veřejných debat."
+}
+},
+
+{
+intro:"Společnost nastavuje různá pravidla.",
+a:"Lidé by měli mít velkou svobodu rozhodování o svém životě.",
+b:"Společnost by měla stanovovat více pravidel.",
+y:2,
+reactions:{
+aStrong:"Rovnováha mezi svobodou a pravidly se řeší dlouhodobě.",
+aSoft:"Každá společnost nastavuje pravidla trochu jinak.",
+neutral:"Oba přístupy mají své výhody.",
+bSoft:"Pravidla mohou pomáhat vytvářet stabilní prostředí.",
+bStrong:"Rozsah pravidel bývá předmětem diskusí."
+}
+},
+
+{
+intro:"Technologie ovlivňují každodenní život.",
+a:"Přinášejí více výhod než nevýhod.",
+b:"Přinášejí více rizik než výhod.",
+y:2,
+reactions:{
+aStrong:"Technologie mění mnoho oblastí života.",
+aSoft:"Nové technologie mohou přinášet nové možnosti.",
+neutral:"Technologie mají výhody i rizika.",
+bSoft:"Každá nová technologie přináší nové otázky.",
+bStrong:"O dopadech technologií se vede mnoho debat."
+}
+},
+
+{
+intro:"Někdy dochází ke střetu rozvoje a ochrany přírody.",
+a:"Ochrana přírody je důležitější.",
+b:"Rozvoj města je důležitější.",
+x:-1,
+y:1,
+reactions:{
+aStrong:"Životní prostředí je důležitým tématem současnosti.",
+aSoft:"Mnoho projektů hledá kompromis mezi oběma cíli.",
+neutral:"Rozvoj i ochrana přírody mohou být důležité.",
+bSoft:"Rozvoj měst může přinášet nové služby.",
+bStrong:"Rozvoj a ochrana přírody bývají častým tématem debat."
+}
+},
+
+{
+intro:"Dopravní rozpočet bývá omezený.",
+a:"Více investovat do cyklostezek.",
+b:"Více investovat do silnic a parkování.",
+x:-1,
+y:1,
+reactions:{
+aStrong:"Města řeší dopravu různými způsoby.",
+aSoft:"Dopravní infrastruktura ovlivňuje každodenní život.",
+neutral:"Potřeby obyvatel se mohou lišit.",
+bSoft:"Automobilová doprava je stále významnou součástí života.",
+bStrong:"Rozdělení investic do dopravy bývá často diskutováno."
+}
+},
+
+{
+intro:"Ve městech je omezený prostor.",
+a:"Více stromů i za cenu méně parkovacích míst.",
+b:"Parkovací místa jsou důležitější.",
+x:-1,
+y:1,
+reactions:{
+aStrong:"Podoba veřejného prostoru ovlivňuje život obyvatel.",
+aSoft:"Zeleň i parkování mají své zastánce.",
+neutral:"Různé skupiny obyvatel mohou mít různé priority.",
+bSoft:"Parkování je každodenním tématem mnoha lidí.",
+bStrong:"Využití veřejného prostoru bývá předmětem diskusí."
+}
+},
+
+{
+intro:"Veřejné budovy spotřebovávají energii.",
+a:"Školy a knihovny by měly využívat obnovitelné zdroje.",
+b:"Nejdůležitější je co nejnižší cena energie.",
+x:-1,
+y:1,
+reactions:{
+aStrong:"Energetika je významným tématem současnosti.",
+aSoft:"Volba zdroje energie ovlivňuje mnoho oblastí života.",
+neutral:"Cena i zdroj energie mohou být důležité.",
+bSoft:"Náklady na energii ovlivňují rozpočty institucí.",
+bStrong:"Otázky energie bývají často diskutovány."
+}
+},
+
+{
+intro:"Výstavba nových bytů může zabírat volné plochy.",
+a:"Je lepší postavit více bytů.",
+b:"Je lepší chránit více zeleně.",
+x:1,
+y:-1,
+reactions:{
+aStrong:"Mnoho měst řeší nedostatek bydlení.",
+aSoft:"Výstavba a ochrana prostoru bývají v napětí.",
+neutral:"Oba pohledy mají své důvody.",
+bSoft:"Veřejná zeleň má ve městech mnoho funkcí.",
+bStrong:"Využití volných ploch bývá složitým tématem."
+}
+},
+
+{
+intro:"Úřady stále více využívají internet.",
+a:"Většinu věcí by mělo jít vyřídit online.",
+b:"Osobní kontakt má zůstat hlavní.",
+y:1,
+reactions:{
+aStrong:"Digitalizace mění fungování mnoha institucí.",
+aSoft:"Online služby mohou šetřit čas.",
+neutral:"Různí lidé preferují různé způsoby komunikace.",
+bSoft:"Osobní kontakt může být v některých situacích důležitý.",
+bStrong:"Digitalizace veřejné správy je často diskutována."
+}
+},
+
+{
+intro:"Bezpečnost a soukromí nejsou vždy v souladu.",
+a:"Bezpečnost je důležitější.",
+b:"Soukromí je důležitější.",
+y:-1,
+reactions:{
+aStrong:"Mnoho společností hledá rovnováhu mezi oběma hodnotami.",
+aSoft:"Bezpečnost i soukromí patří mezi důležitá témata.",
+neutral:"Neexistuje jednoduchá odpověď.",
+bSoft:"Ochrana soukromí získává s rozvojem technologií na významu.",
+bStrong:"Otázka soukromí bývá často diskutována."
+}
+},
+
+{
+intro:"Politici někdy nabízejí jednoduchá řešení složitých problémů.",
+a:"Je potřeba být opatrný.",
+b:"Jednoduchá řešení bývají často správná.",
+pop:true,
+reactions:{
+aStrong:"Složité problémy mívají více příčin.",
+aSoft:"Ověřování informací může být užitečné.",
+neutral:"Někdy fungují jednoduchá řešení, jindy ne.",
+bSoft:"Jednoduchá vysvětlení jsou snadno srozumitelná.",
+bStrong:"Veřejná komunikace často používá jednoduchá sdělení."
+}
+},
+
+{
+intro:"Informace se dnes šíří velmi rychle.",
+a:"Je dobré ověřovat je z více zdrojů.",
+b:"Stačí důvěřovat jednomu ověřenému zdroji.",
+pop:true,
+reactions:{
+aStrong:"Práce s více zdroji bývá součástí kritického myšlení.",
+aSoft:"Různé zdroje mohou přinášet různé pohledy.",
+neutral:"Důvěryhodnost zdrojů je důležité posuzovat.",
+bSoft:"Mnoho lidí si vytváří okruh zdrojů, kterým důvěřuje.",
+bStrong:"Orientace v informacích bývá náročná."
+}
+},
+
+{
+intro:"Ve škole je omezený čas na výuku.",
+a:"Více prostoru by měla mít finanční gramotnost.",
+b:"Hlavní mají zůstat tradiční předměty.",
+x:1,
+reactions:{
+aStrong:"Školy řeší, jaké dovednosti budou důležité v budoucnu.",
+aSoft:"Finanční gramotnost získává větší pozornost.",
+neutral:"Vzdělávání musí pokrývat mnoho oblastí.",
+bSoft:"Tradiční předměty tvoří základ vzdělávání.",
+bStrong:"Obsah výuky bývá veřejně diskutován."
+}
+},
+
+{
+intro:"Občané mohou ovlivňovat rozhodování různými způsoby.",
+a:"Měli by mít více přímých možností rozhodovat.",
+b:"Rozhodování mají nechat odborníkům.",
+y:1,
+pop:true,
+reactions:{
+aStrong:"Zapojení občanů může mít různé podoby.",
+aSoft:"Některá města využívají více forem participace.",
+neutral:"Občané i odborníci mohou přinášet důležitý pohled.",
+bSoft:"Odborné znalosti bývají důležité u složitých témat.",
+bStrong:"Vztah odbornosti a veřejného rozhodování bývá diskutovaným tématem."
+}
+},
+
+{
+intro:"Lidé mají různé startovní podmínky.",
+a:"Důležitá je rovnost příležitostí.",
+b:"Každý si má úspěch zajistit hlavně sám.",
+x:-2,
+reactions:{
+aStrong:"Téma příležitostí se objevuje v mnoha společenských debatách.",
+aSoft:"Lidé mohou mít různé podmínky pro dosažení cílů.",
+neutral:"Mnoho lidí považuje za důležité oba pohledy.",
+bSoft:"Osobní iniciativa bývá významným faktorem úspěchu.",
+bStrong:"Úspěch a odpovědnost jsou častými tématy veřejných diskusí."
+}
+}
+
+];
 
 let current = -1;
 
@@ -425,25 +597,19 @@ if(type==="bStrong") value = 2;
 answers.push(value);
 
 if(q.x){
-
 leftRightScore += value * q.x;
-
 }
 
 if(q.y){
-
 progressiveScore += value * q.y;
-
 }
 
 if(q.pop){
 
 populismQuestions++;
 
-if(value > 0){
-
+if(value>0){
 populismScore += value;
-
 }
 
 }
@@ -461,116 +627,25 @@ askQuestion();
 },700);
 
 });
-
-}
-
-const q=questions[current];
-
-addMessage(text,"user");
-
-options.innerHTML="";
-
-typeBotMessage(q.reactions[type],()=>{
-
-setTimeout(()=>{
-
-askQuestion();
-
-},700);
-
-});
-
-}
-
-function renderResults(profile,x,y,pop){
-
-const center = 250;
-
-const pointX = center + (x*2);
-const pointY = center - (y*2);
-
-return `
-
-<div class="result-wrapper">
-
-<div class="profileText">
-
-${profile}
-
-</div>
-
-<h2>📍 Tvoje pozice na mapě názorů</h2>
-
-<div class="compass">
-
-<div class="axis-x"></div>
-<div class="axis-y"></div>
-
-<div class="axis-label top-label">
-PROGRESIVNÍ
-</div>
-
-<div class="axis-label bottom-label">
-KONZERVATIVNÍ
-</div>
-
-<div class="axis-label left-label">
-LEVICE
-</div>
-
-<div class="axis-label right-label">
-PRAVICE
-</div>
-
-<div
-class="user-point"
-style="
-left:${pointX}px;
-top:${pointY}px;
-">
-</div>
-
-</div>
-
-<div class="populism">
-
-<h2>
-🧠 Náchylnost k populismu
-</h2>
-
-<div class="popbar">
-
-<div
-class="popmarker"
-style="left:${pop}%;">
-</div>
-
-</div>
-
-<br>
-
-<strong>${pop}%</strong>
-
-</div>
-
-</div>
-
-`;
 
 }
 
 function showResult(){
 
-options.style.display="none";
-
 let x = Math.max(
 -100,
-Math.min(100,leftRightScore*3)
+Math.min(
+100,
+leftRightScore * 3
+)
 );
 
 let y = Math.max(
 -100,
-Math.min(100,progressiveScore*3)
+Math.min(
+100,
+progressiveScore * 3
+)
 );
 
 let pop = 0;
@@ -578,17 +653,18 @@ let pop = 0;
 if(populismQuestions>0){
 
 pop = Math.round(
-(populismScore/(populismQuestions*2))*100
+(populismScore / (populismQuestions*2))
+* 100
 );
 
 }
 
-let ekonomika = "";
+let ekonomika="";
 
 if(x < -20){
 
 ekonomika =
-"Ve veřejných otázkách se spíše přikláníš k větší solidaritě a roli veřejných institucí.";
+"Ve veřejných otázkách se spíše přikláníš k větší solidaritě a podpoře veřejných služeb.";
 
 }
 else if(x > 20){
@@ -604,53 +680,63 @@ ekonomika =
 
 }
 
-let spolecnost = "";
+let spolecnost="";
 
 if(y > 20){
 
 spolecnost =
-"Ve společenských otázkách jsi otevřenější změnám, novým technologiím a novým přístupům.";
+"Ve společenských otázkách jsi otevřenější novým myšlenkám, technologiím a změnám.";
 
 }
 else if(y < -20){
 
 spolecnost =
-"Ve společenských otázkách kladeš větší důraz na tradice, stabilitu a postupnější změny.";
+"Ve společenských otázkách dáváš větší důraz na tradice, stabilitu a opatrnější tempo změn.";
 
 }
 else{
 
 spolecnost =
-"Ve společenských otázkách spojuješ respekt k tradicím s otevřeností novým myšlenkám.";
+"Ve společenských otázkách kombinuješ otevřenost novým myšlenkám s respektem k tradicím.";
 
 }
 
-let kritika = "";
+let kritika="";
 
 if(pop < 30){
 
 kritika =
-"Tvoje odpovědi naznačují vysokou opatrnost vůči jednoduchým vysvětlením složitých problémů.";
+"Tvoje odpovědi ukazují vysokou opatrnost vůči jednoduchým vysvětlením složitých problémů.";
 
 }
 else if(pop < 60){
 
 kritika =
-"Většinu informací hodnotíš kriticky, ale některé jednodušší argumenty tě mohou oslovit.";
+"Informace většinou posuzuješ kriticky, ale některé jednodušší argumenty tě mohou oslovit.";
 
 }
 else{
 
 kritika =
-"Častěji dáváš důvěru jednoduchým vysvětlením složitějších problémů.";
+"Častěji dáváš přednost jednodušším vysvětlením složitých problémů a vyplatí se více pracovat s různými zdroji informací.";
 
 }
 
-const profile = `
+const center = 250;
+
+const pointX = center + (x * 2);
+
+const pointY = center - (y * 2);
+
+options.innerHTML = "";
+
+typeBotMessage(`
+
+<div class="result-wrapper">
 
 <h2>🎯 Tvůj profil</h2>
 
-<p>
+<div class="profileText">
 
 ${ekonomika}
 
@@ -664,47 +750,131 @@ ${kritika}
 
 <br><br>
 
-Výsledek neříká, koho bys měl volit.
-Ukazuje pouze postoje, které se nejčastěji objevily ve tvých odpovědích.
+Výsledek neříká, koho bys měl volit. Ukazuje pouze hodnoty a postoje, které se nejčastěji objevily ve tvých odpovědích.
 
-</p>
+</div>
 
-`;
+<h2>📍 Tvoje pozice na mapě názorů</h2>
 
-typeBotMessage(
+<div style="
+position:relative;
+width:500px;
+height:500px;
+margin:20px auto;
+background:#f4f4f4;
+border:1px solid #ccc;
+">
 
-renderResults(
-profile,
-x,
-y,
-pop
-)
+<div style="
+position:absolute;
+top:50%;
+left:0;
+width:100%;
+height:2px;
+background:black;
+"></div>
 
+<div style="
+position:absolute;
+left:50%;
+top:0;
+width:2px;
+height:100%;
+background:black;
+"></div>
+
+<div style="
+position:absolute;
+top:10px;
+left:50%;
+transform:translateX(-50%);
+font-weight:bold;
+">
+PROGRESIVNÍ
+</div>
+
+<div style="
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+font-weight:bold;
+">
+KONZERVATIVNÍ
+</div>
+
+<div style="
+position:absolute;
+left:10px;
+top:50%;
+transform:translateY(-50%);
+font-weight:bold;
+">
+LEVICE
+</div>
+
+<div style="
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
+font-weight:bold;
+">
+PRAVICE
+</div>
+
+<div style="
+position:absolute;
+width:20px;
+height:20px;
+background:red;
+border-radius:50%;
+border:3px solid white;
+left:${pointX}px;
+top:${pointY}px;
+">
+</div>
+
+</div>
+
+<h2>🧠 Náchylnost k populismu</h2>
+
+<div style="
+height:30px;
+border-radius:20px;
+position:relative;
+
+background:
+linear-gradient(
+90deg,
+#2ecc71 0%,
+#8bc34a 25%,
+#f1c40f 50%,
+#f39c12 75%,
+#e74c3c 100%
 );
+">
 
+<div style="
+position:absolute;
+left:${pop}%;
+top:-5px;
+width:5px;
+height:40px;
+background:black;
+">
+</div>
 
-<hr>
+</div>
 
-<h3>📊 Souřadnice</h3>
+<br>
 
-Levice ↔ Pravice: <b>${x}</b>
+<strong>${pop}%</strong>
 
-<br><br>
+</div>
 
-Konzervativní ↔ Progresivní: <b>${y}</b>
-
-<br><br>
-
-🧠 Populismus: <b>${pop}%</b>
-
-`
-);
-
-}
-
-typeBotMessage(`
-✅ Děkuji za odpovědi.
 `);
+
 }
 
 window.onload=()=>{
